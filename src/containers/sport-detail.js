@@ -17,6 +17,10 @@ class SportDetail extends Component {
       return (
         <div>
           <h3>Sport details for <em>{this.props.sport.name}</em></h3>
+          <div>Description:
+            <p>{this.props.sport.description}</p>
+          </div>
+          <img src={this.props.sport.img_url}></img>
         </div>
       )
     }
