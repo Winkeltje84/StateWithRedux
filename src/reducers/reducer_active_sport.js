@@ -3,8 +3,9 @@
 export default function (state = null, action) {
   switch (action.type) {
     case 'SPORT_SELECTED':
+      // debugger
       return action.payload
+    default:
+      return state   // if the action was not triggered by this reducer, return default 'state'
   }
-
-  return state // if the action was not triggered by this reducer, return default 'state'
 }
