@@ -7,7 +7,6 @@ class SportList extends Component {
   renderList() {
     // debugger
     return this.props.sports.map((sport) => {
-      // debugger
       return (
         <li
           key={sport.name}
