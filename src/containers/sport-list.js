@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux' //
 
-class BookList extends Component {
+class SportList extends Component {
   renderList() {
-    return this.props.books.map((book) => {
+    return this.props.sports.map((sport) => {
       return (
-        <li key={book.title} className="list-group-item">{book.title}</li>
+        <li key={sport.name} className="list-group-item">{sport.name}</li>
       )
     })
   }
@@ -22,8 +22,8 @@ class BookList extends Component {
 function mapStateToProps(state) {
   // whatever is returned will show up as props inside of BookList
   return {
-    books: state.books
+    sports: state.sports
   }
 }
 
-export default connect(mapStateToProps)(BookList)
+export default connect(mapStateToProps)(SportList)
