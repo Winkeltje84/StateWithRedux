@@ -3,7 +3,10 @@ import { connect } from 'react-redux'
 
 class SportDetail extends Component {
   render() {
-    // debugger
+    // the if statement below is because the first time the page loads the
+    // state of SportDetail will be null (see the reducer_active_sport). So
+    // we need to catch it. Since this.props.sport will be null and can not
+    // be rendered on the page.
 
     // if (this.props.sport === null) {      REFACTORED BELOW
     if (!this.props.sport) {
@@ -32,8 +35,11 @@ class SportDetail extends Component {
 
 function mapStateToProps(state) {
   return {
-    sport: state.activeSport
+    sport: state.activeSport // the activeSport given by reducers/index.js
+    // is available in the state and is now given to 'state' as 'sport'.
   }
 }
 
 export default connect(mapStateToProps)(SportDetail)
+// state 'sport' is given to class 'SportDetail' here and will now be
+// available as 'this.props.sport'

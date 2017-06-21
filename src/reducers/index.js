@@ -6,5 +6,6 @@ const rootReducer = combineReducers({
   sports: SportsReducer,
   activeSport: ActiveSport
 });
+// what SportsReducer returns becomes available as 'sports'
 
 export default rootReducer;
