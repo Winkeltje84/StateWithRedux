@@ -1,25 +1,22 @@
-# ReduxSimpleStarter
+# State With Redux
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is a repo for tracking my steps in the Modern React with Redux Udemy course by Stephen Grider. For this excersize we learned how to connect React to Redux and get data from the Redux store rendered in our React app.
 
-### Getting Started
+## Current state
+So far I have just followed the course but have added a little bit of extra styling. I might pick this one up again lateron allthough I'm expecting a lot more exciting projects to come up with this course!
 
-There are two methods for getting started with this repo.
+## ScreenShots
+- Screenshot of the React App
+![Screenshot](https://github.com/Winkeltje84/StateWithRedux/blob/master/src/images/ScreenShot.png)
 
 #### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
+> git clone git@github.com:Winkeltje84/StateWithRedux.git
+> cd ReactYoutube
 > npm install
 > npm start
-```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
+Go to your [localhost](http://localhost:8080) on port 8080(default)
 ```
