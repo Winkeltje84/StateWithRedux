@@ -8,15 +8,15 @@ class SportDetail extends Component {
     // if (this.props.sport === null) {      REFACTORED BELOW
     if (!this.props.sport) {
       return (
-        <div>
+        <div className="sport-details">
           <p>Please select a sport to get more info about it!</p>
         </div>
       )
     }
     else {
       return (
-        <div>
-          <h3>Sport details for <em>{this.props.sport.name}</em></h3>
+        <div className="sport-details">
+          <h3 className="sport-detail-header">Sport details for <em>{this.props.sport.name}</em></h3>
           <div>Description:
             <p>{this.props.sport.description}</p>
           </div>

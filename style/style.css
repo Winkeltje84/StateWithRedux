@@ -1,0 +1,21 @@
+.sport-details {
+  padding: 30px;
+  background-color: grey;
+}
+
+.five-columns-in-row {
+  position: relative;
+  width: 20%;
+  float: left;
+}
+
+.sport-detail-header {
+
+}
+
+body {
+  background-color: #161220;
+}
+img {
+  width: 100%;
+}
