@@ -11,14 +11,14 @@ class SportList extends Component {
         <li
           key={sport.name}
           onClick={() => this.props.selectSport(sport)}
-          className="list-group-item">{sport.name}</li>
+          className="list-group-item five-columns-in-row">{sport.name}</li>
       )
     })
   }
 
   render() {
     return (
-      <ul className="list-group col-sm-4">
+      <ul className="list-group row">
         {this.renderList()}
       </ul>
     )
