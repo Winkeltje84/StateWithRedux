@@ -14,7 +14,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone git@github.com:Winkeltje84/StateWithRedux.git
-> cd ReactYoutube
+> cd StateWithRedux
 > npm install
 > npm start
 
